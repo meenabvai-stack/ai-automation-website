@@ -3,37 +3,98 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AI Automation & Agent Services</title>
+  <title>Noventrix Technologies | AI Automation & Intelligent Agents</title>
 
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      background: #f8fafc;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f8fafc;
       color: #1e293b;
+      line-height: 1.6;
     }
+
     header {
       background: #0f172a;
-      color: white;
-      padding: 40px;
+      color: #ffffff;
+      padding: 60px 20px;
       text-align: center;
     }
-    section {
-      padding: 40px;
-      max-width: 1000px;
+
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 36px;
+    }
+
+    header p {
+      font-size: 18px;
+      max-width: 800px;
       margin: auto;
     }
-    .card {
-      background: white;
-      padding: 20px;
-      margin: 20px 0;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
     }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #0f172a;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #1d4ed8;
+    }
+
+    .cta {
+      background: #1d4ed8;
+      color: #ffffff;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .cta h2 {
+      color: #ffffff;
+    }
+
+    .cta p {
+      max-width: 700px;
+      margin: 20px auto;
+      font-size: 18px;
+    }
+
+    .cta a {
+      display: inline-block;
+      background: #ffffff;
+      color: #1d4ed8;
+      padding: 12px 25px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
     footer {
       background: #e5e7eb;
       text-align: center;
       padding: 20px;
+      font-size: 14px;
     }
   </style>
 </head>
@@ -41,37 +102,94 @@
 <body>
 
 <header>
-  <h1>AI Automation & Intelligent Agent Solutions</h1>
-  <p>Helping enterprises automate workflows using AI agents</p>
+  <h1>Noventrix Technologies</h1>
+  <p>
+    We build AI-powered automation and intelligent agent solutions that help
+    organizations streamline operations, enhance decision-making, and scale faster.
+  </p>
 </header>
 
 <section>
+  <h2>About Us</h2>
+  <p>
+    Noventrix Technologies is an AI-focused technology company specializing in
+    automation, intelligent agents, and enterprise AI solutions. We partner with
+    organizations to design, build, and deploy secure, scalable AI systems that
+    deliver real business value.
+  </p>
+  <p>
+    Our expertise spans AI automation, generative AI, and cloud-native architectures,
+    helping enterprises move from experimentation to production-ready AI solutions.
+  </p>
+</section>
+
+<section>
   <h2>Our Services</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>AI Automation</h3>
+      <p>
+        Automate business workflows using AI-driven processes, document intelligence,
+        and decision automation to reduce manual effort and improve efficiency.
+      </p>
+    </div>
 
-  <div class="card">
-    <h3>AI Automation</h3>
-    <p>Workflow automation, document processing, data extraction using AI.</p>
-  </div>
+    <div class="card">
+      <h3>AI Agent Development</h3>
+      <p>
+        Design and develop custom AI agents including RAG-based assistants,
+        enterprise copilots, and task-oriented autonomous agents.
+      </p>
+    </div>
 
-  <div class="card">
-    <h3>AI Agent Development</h3>
-    <p>Custom AI agents, RAG-based enterprise assistants, chatbots.</p>
-  </div>
+    <div class="card">
+      <h3>Generative AI Solutions</h3>
+      <p>
+        Build and integrate generative AI solutions for knowledge search,
+        content generation, summarization, and conversational interfaces.
+      </p>
+    </div>
 
-  <div class="card">
-    <h3>Cloud & Platforms</h3>
-    <p>Azure OpenAI, AWS Bedrock, LangChain, Python.</p>
+    <div class="card">
+      <h3>AI Consulting & Strategy</h3>
+      <p>
+        Identify high-impact AI use cases, define architecture, and create
+        implementation roadmaps aligned with business goals.
+      </p>
+    </div>
   </div>
 </section>
 
 <section>
-  <h2>Contact</h2>
-  <p>Email: your-email@example.com</p>
-  <p>LinkedIn: linkedin.com/in/your-profile</p>
+  <h2>Industries We Serve</h2>
+  <div class="cards">
+    <div class="card">Banking & Financial Services</div>
+    <div class="card">Insurance & Healthcare</div>
+    <div class="card">Enterprise IT & Operations</div>
+    <div class="card">Data & Analytics Platforms</div>
+    <div class="card">Customer Support Automation</div>
+  </div>
 </section>
 
+<section>
+  <h2>Technology Stack</h2>
+  <p style="text-align:center;">
+    Azure OpenAI · AWS Bedrock · Python · FastAPI · LangChain · Vector Databases ·
+    Cloud-Native Architecture
+  </p>
+</section>
+
+<div class="cta">
+  <h2>Let’s Build Intelligent Solutions Together</h2>
+  <p>
+    Whether you are exploring AI automation or building enterprise-grade AI agents,
+    we help you move faster with confidence.
+  </p>
+  <a href="mailto:contact@noventrix-tech.com">Contact Us</a>
+</div>
+
 <footer>
-  © 2026 AI Automation Services
+  © 2026 Noventrix Technologies. All rights reserved.
 </footer>
 
 </body>
